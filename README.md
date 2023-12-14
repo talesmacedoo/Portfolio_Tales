@@ -1,2 +1,2 @@
 # Portfolio_Tales
-Portfólio pessoal utilizando, html, css e js.
+Portfólio pessoal utilizando, HTML, CSS e JS.
