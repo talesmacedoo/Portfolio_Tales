@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tales Macedo Gonçalves</title>  
+    
+	<!-- Aqui você coloca os arquivos CSS -->
+    <link rel="stylesheet" href="./styles.css">  
+
+    <!-- Aqui tem as fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+    <!-- Para usar os ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <h1>Tales Macedo Gonçalves</h1>
+      <div id="switch" onclick="temaMode()">
+        <button></button>
+        <span></span>
+      </div>      
+      <nav>
+              
+        <ul class="main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Certificados</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>		
+      </nav>
+    </header>
+    <section class="card">
+        <div class="div-card">
+            <div class="div-card-2" id="open-modal" >
+              <img decoding="async" src="./assets/certificados/rocketseat-logo.png" alt="img1">
+              <div class="icon">+</div>
+
+            </div>
+            <div id="fade" class="hide"></div>
+            <div id="modal" class="hide">
+              <img decoding="async" src="./assets/certificados/rocketseat-night.jpg" alt="img2">
+              <button id="close-modal">Fechar</button>
+            </div>
+
+            <div class="div-card-2">
+              <img decoding="async" src="./assets/certificados/rocketseat-logo.png" alt="img2">
+              <div class="icon">+</div>
+            </div>
+            <div class="div-card-2">
+              <img decoding="async" src="./assets/certificados/rocketseat-logo.png" alt="img3">
+              <div class="icon">+</div>
+            </div>
+        </div>
+    </section>
+    <main>
+
+      </section>
+	  
+    </main>
+
+    <footer>
+        <a href="https://github.com/talesmgg" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/tales-macedo-1640601a4/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>     
+          <a href="https://www.instagram.com/talesgmacedo/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a> 
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
